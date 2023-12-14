@@ -1,0 +1,8 @@
+User-agent : *
+Disallow: /login.html
+Disable: /register.html
+Allow: /index.html
+Allow: /casos-de-estudio.html
+Allow: /maui.html
+
+Sitemap: https://devon.mx/dev/sitemap.xml

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8" />
+    <meta property="og:locale" content="es_ES" />
+    <meta name="copyright" content="Devon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, IE=11" />
+    <link rel="icon" href="./Images/Icons/Icono.png" type="image/png" />
+    <title>Devon Multimedia • HUB de tecnología creativa</title>
+    <script src="./Js/Aframe-1.4.0.min.js"></script>
+    <script src="./Js/Vue-3.3.4.js"></script>
+</head>
+<body>
+    <div id="app">
+        <a-scene background="color: #000">
+            <a-camera position="0 0 1"></a-camera>
+            <a-circle :position="`0 1 -${scale + 3}`" :rotation="`${Math.sin(2*t/5)} ${5*Math.sin(2*t/4)} 0`"
+                color="#ccc" radius="0">
+                <a-text v-for="(leter,i) in letters"
+                    :position="`${this.scale*leter.x} ${this.scale*leter.y} ${this.scale*leter.z}`"
+                    :color="`rgb(${leter.color.r},${leter.color.g},${leter.color.b})`" :value="abc[i]"
+                    :_rotation="`${-2*Math.sin(t/13)} ${-10*Math.sin(t/10)} 0`" 
+                    align="center"></a-text>
+            </a-circle>
+        </a-scene>
+    </div>
+</body>
+<script src="./Js/Backgraound.js"></script>
+</html>
