@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+</head>
+<body>
+    <script>
+        let anim = () => document.querySelectorAll(".glass-effect").forEach( (element, elementIndex) => {
+                let t = elementIndex + Date.now() / 10
+                let transform = ⁠ rotate3d(${Math.sin(t/1000)}, ${Math.cos(3*t/1000)}, ${Math.cos(2*t/1000)}, 10deg) ⁠
+                element.style.transform = transform
+                requestAnimationFrame( anim )
+            })
+        anim()
+        </script>
+</body>
+</html>
