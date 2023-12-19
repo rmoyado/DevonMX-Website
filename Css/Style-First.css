@@ -1,3 +1,5 @@
+/*--- CONT VERS En esta versión se continua desde la versión B del 18 de DIC para modificar el BLOG y otros elementos complementarios---*/
+
 html {
   width: 100%;
   height: 100%;
@@ -66,7 +68,38 @@ html {
   margin:5px 5px;
 }
 
-/* [ -- Contenido -- ] */
+/* [ -- CONTENIDO -- ] */
+
+
+/* [ -- Contenedores -- ] */
+.wrapper1 {
+  margin: 150px auto;
+  width: 100%;
+}
+.imagen1 {
+  max-width: 500px;
+  float: left
+}
+
+.wrapper2 {
+  margin: 150px auto;
+  width: 100%;
+}
+.imagen2 {
+  max-width: 450px;
+  float: left
+}
+
+.wrapper3 {
+  margin: 150px auto;
+  width: 100%;
+}
+.imagen3 {
+  max-width: 450px;
+  float: left
+}
+
+/* [ -- Estilos textos -- ] */
 
 .tex-h1 {
   font-family: "Montserrat";
@@ -78,6 +111,7 @@ html {
   font-family: "Montserrat";
   font-size: 36px;
   color: #ffffff;
+  padding: 50px 0px 20px 20px;
 }
 
 .subtitle-home {
@@ -85,6 +119,7 @@ html {
   font-style: italic;
   font-size: 24px;
   color: #ffffff;
+  padding: 20px 20px 0px 20px ;
 }
 
 .cont-home {
@@ -92,6 +127,8 @@ html {
   font-size: 14px;
   line-height: 1.5;
   color: #ffffff;
+  padding: 20px 20px 20px 20px ;
+  text-align: justify;
 }
 
   /* [ -- Glass Effect -- ] */
@@ -107,7 +144,7 @@ html {
 }
 
 .background-container2 {
-  width: 100%;
+  width:100%;
   height: 100vh;
   position: relative;
   background: url(https://devon.mx/dev/Images/Home/back2.webp) no-repeat center;
@@ -116,25 +153,47 @@ html {
   align-items: center;
 }
 
+.background-container3 {
+  width:100%;
+  height: 100vh;
+  position: relative;
+  background: url(https://devon.mx/dev/Images/Home/back3.webp) no-repeat center;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+}
+
 .card-container-a {
-    width: 50rem;
-    height: 80vh;
-    position: left;
+    width: 45rem;
+    height: 50dvh auto;
     border: 2px solid #ffffff10;
-    margin: 200px auto;
+    position: relative;
+    margin: 20px 220px;
+    padding: 20px 20px;
 }
 
 .card-container-b {
-  width: 50rem;
-  height: 80vh;
+  width: 45rem;
+  height: 50dvh auto;
   border: 2px solid #ffffff10;
-  margin: 200px auto;
+  position: relative;
+  margin: 20px auto;
+  padding: 20px 20px;
+}
+
+.card-container-c {
+  width: 45rem;
+  height: 50dvh auto;
+  border: 2px solid #ffffff10;
+  position: relative;
+  margin: 20px 220px;
+  padding: 20px 20px;
 }
 
 .glass-effect {
     background-color: #ffffff15;
     backdrop-filter: blur(0.7rem);
-    -webkit-backdrop-filter: blur(0.7rem);
+    ---webkit-backdrop-filter: blur(0.7rem);
 }
 
 
