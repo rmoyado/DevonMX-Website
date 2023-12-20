@@ -122,14 +122,6 @@ html {
   max-width: 450px;
   float: left
 }
-.wrapper2A {
-  margin: 150px auto;
-  width: 100%;
-}
-.imagen2A {
-  max-width: 450px;
-  float: left
-}
 
 .wrapper3 {
   margin: 150px auto;
@@ -223,15 +215,6 @@ html {
   height: 100vh;
   position: relative;
   background: url(https://devon.mx/dev/Images/Home/back2.webp) no-repeat center;
-  background-size: cover;
-  display:flex;
-  align-items: center;
-}
-.background-container2A {
-  width:100%;
-  height: 100vh;
-  position: relative;
-  background: url(https://devon.mx/dev/Images/Home/back2A.webp) no-repeat center;
   background-size: cover;
   display:flex;
   align-items: center;
