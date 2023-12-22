@@ -1,0 +1,411 @@
+/*--- CONT VERS En esta versión se continua desde la versión B del 18 de DIC para modificar el BLOG y otros elementos complementarios---*/
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000000;
+}
+/*--- Carrucel ---*/
+/*- Imagen Logo -*/
+.content-elements{
+  position: absolute;
+  width:100%;
+  height: 100px;
+  background-color:transparent;
+}
+.content-image{
+  z-index: 1;
+  position: fixed;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color:transparent;
+}
+
+.content-image img{
+  width: 120px;
+  padding: 25px;
+}
+
+/* [ -- Primer linea del menú -- ] */
+.content-social-1{
+  z-index: 1;
+  position: fixed;
+  height: 50px;
+  top: 0px;
+  right: 12px;
+  background-color:transparent;
+}
+/* [ -- Efectos para ambas lineas -- ] */
+.icon-social-extended{
+  font-family: "Montserrat";
+  font-size: 13px;
+  color: #ffffff;
+  background-color: transparent;
+  padding:5px;
+  margin: 0 0 0 0;
+}
+/* [ -- Segunda linea del menú -- ] */
+.content-social-2{
+  z-index: 1;
+  position: fixed;
+  height: 50px;
+  width: auto;
+  top: 45px;
+  right: 15px;
+  background-color:transparent;
+}
+/* [ -- Iconos Redes Sociales del menú -- ] */
+.icon-social{
+  display: inline-flex;
+  font-family: "Montserrat";
+  font-size: 25px;
+  border-radius:100%;
+  color: #4cc9f0;
+  background-color: transparent;
+  padding:5px 5px;
+  margin:5px 5px;
+}
+/* [ -- Back del menú -- ] */
+.card-menu {
+  width: auto;
+  height: 30px;
+  position: relative;
+  margin: 0px 0px;
+  padding: 20px 20px;
+}
+.glass-menu {
+  background-color: #ebebeb15;
+  backdrop-filter: blur(0.5rem);
+  ---webkit-backdrop-filter: blur(0.5rem);
+}
+
+/* [ -- Contenedores Home -- ] */
+
+.menu {
+  margin: 150px auto;
+  width: 100%;
+}
+
+.wrapper0 {
+  margin: 150px auto;
+  padding-left: 50px;
+  width: 100%;
+}
+.wrapper1 {
+  margin: 150px auto;
+  width: 100%;
+}
+.imagen1 {
+  max-width: 500px;
+  float: left
+}
+
+.wrapper1A {
+  margin: 150px auto;
+  padding-left: 50px;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.imagen1A {
+  max-width: 500px;
+  float: left
+}
+
+.wrapper2 {
+  margin: 150px auto;
+  width: 100%;
+}
+.imagen2 {
+  max-width: 450px;
+  float: left
+}
+
+.wrapper3 {
+  margin: 150px auto;
+  width: 100%;
+}
+.imagen3 {
+  max-width: 450px;
+  float: left
+}
+
+/* [ -- Estilos textos -- ] */
+
+.tex-h1 {
+  font-family: "Montserrat";
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.title-home {
+  font-family: "Montserrat";
+  font-size: 72px;
+  font-weight: 600 ;
+  color: #ffffff;
+  padding: 50px 0px 20px 20px;
+}
+
+.title-number1 {
+  font-family: "Montserrat";
+  font-size: 72px;
+  color: #7D4CFF;
+  font-weight: 600;
+  padding: 50px 0px 20px 20px;
+}
+.subtitle-main {
+  font-family: "Montserrat";
+  font-style: italic;
+  font-size: 36px;
+  color: #7D4CFF;
+  padding: 20px 20px 0px 20px ;
+}
+.subtitle-home {
+  font-family: "Montserrat";
+  font-style: italic;
+  font-size: 36px;
+  color: #7D4CFF;
+  padding: 20px 20px 0px 20px ;
+}
+
+.cont-home {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+  padding: 20px 20px 20px 20px ;
+  text-align: justify;
+}
+
+  /* [ -- Casos de Estudio -- ] */
+
+  .title-client {
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #4CC9F0;
+    padding: 20px 20px 0px 20px ;
+    }
+
+  .subtitle-client {
+    font-family: "Montserrat";
+    font-size: 28px;
+    color: #ffffff;;
+    padding: 20px 20px 0px 20px ;
+    }
+
+  .title-case {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 600 ;
+    color: #ffffff;
+    padding: 50px 0px 20px 20px;
+  }
+  
+  .subnumber-case {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 600 ;
+    color: #7D4CFF;
+    padding: 20px 0px 0px 20px ;
+    }
+
+
+
+
+  /* [ -- Glass Effect -- ] */
+
+.background-welcome {
+  width: 100%;
+  height: 100vi;
+  position: relative;
+  background: url(https://devon.mx/dev/Images/Home/space.webp) no-repeat center;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+}
+
+.background-container1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url(https://devon.mx/dev/Images/Home/back1.webp)no-repeat center;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+}
+
+.background-astro {
+  width:100%;
+  height: 100vh;
+  position: relative;
+  background: url(https://devon.mx/dev/Images/Home/astro.webp) no-repeat center;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+}
+.background-container2 {
+  width:100%;
+  height: 100vh;
+  position: relative;
+  background: url(https://devon.mx/dev/Images/Home/back2.webp) no-repeat center;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+}
+.background-container3 {
+  width:100%;
+  height: 100vh;
+  position: relative;
+  background: url(https://devon.mx/dev/Images/Home/back3.webp) no-repeat center;
+  background-size: cover;
+  display:flex;
+  align-items: center;
+}
+
+.background-general {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display:flex;
+  align-items: center;
+}
+
+.card-welcome {
+  width: 45rem;
+  height: 50dvh auto;
+  border: 2px solid #ffffff10;
+  border-radius: 25px;
+  position: relative;
+  margin: 20px 220px;
+  padding: 20px 20px;
+}
+
+.card-container-a {
+    width: 50rem;
+    height: 50dvh auto;
+    border: 2px solid #ffffff10;
+    border-radius: 25px;
+    position: relative;
+    margin: 20px auto;
+    padding: 20px 20px;
+}
+
+.card-container-b {
+  width: 50rem;
+  height: 50dvh auto;
+  border: 2px solid #ffffff10;
+  border-radius: 25px;
+  position: relative;
+  margin: 20px auto;
+  padding: 20px 20px;
+}
+
+.card-container-c {
+  width: 50rem;
+  height: 50dvh auto;
+  border: 2px solid #ffffff10;
+  border-radius: 25px;
+  position: relative;
+  margin: 20px auto;
+  padding: 20px 20px;
+}
+
+.card-container-gral {
+  width: 80rem;
+  height: 50dvh auto;
+  background-color: #0f1317;
+  border: 1px solid #575757;
+  border-radius: 25px;
+  position: relative;
+  margin: 20px auto;
+  padding: 20px 20px;
+}
+
+.card-container-int {
+  width: auto;
+  height: 50dvh auto;
+  background-color: #0f1317;
+  /* [ -- border: 2px solid #575757; -- ] */
+  border-radius: 25px;
+  position: relative;
+  margin: 20px auto;
+  padding: 20px 20px;
+}
+
+.glass-effect {
+    background-color: #ffffff15;
+    backdrop-filter: blur(0.7rem);
+    ---webkit-backdrop-filter: blur(0.7rem);
+}
+
+
+/* [ -- Footer -- ] */
+
+.footer-h1{
+  font-family: "Montserrat";
+  font-size: 12px;
+  color: #ffffff;
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+  padding:5px 3px;
+  background-color: rgb(53, 53, 53);
+}
+.footer-h2{
+  font-family: "Montserrat";
+  font-size: 12px;
+  color: #ffffff;
+  position: fixed;
+  bottom: 5px;
+  left: 160px;
+  padding: 5px 3px;
+  background-color: rgb(53, 53, 53);
+}
+
+.footer-h3{
+  font-family: "Montserrat";
+  font-size: 12px;
+  color: #ffffff;
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  padding: 5px 3px;
+  background-color: rgb(53, 53, 53);
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.panel {
+  width: 100vw;
+  min-height: 100vh;
+  position: fixed;
+  top: 100vh;
+  padding: 5%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.panel > img {
+  margin: 0 5% 10px 0;
+}
+
+.panel > p {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 0 10% 0 0;
+  font-family: "Montserrat";
+}
+
+.panel.left > img {
+  float: left;
+}
+
+.panel.right > img {
+  float: right;
+}

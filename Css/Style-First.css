@@ -81,7 +81,8 @@ html {
   ---webkit-backdrop-filter: blur(0.5rem);
 }
 
-/* [ -- Contenedores -- ] */
+/* [ -- Contenedores Home -- ] */
+
 .menu {
   margin: 150px auto;
   width: 100%;
@@ -132,6 +133,15 @@ html {
   float: left
 }
 
+/* [ -- Contenedores Casos de Estudio -- ] */
+
+.wrapper-description {
+  margin: 5vh 5vw;
+  background-image: url(https://devon.mx/dev/Images/Home/head_back.webp) ;
+  width: 100%;
+}
+
+
 /* [ -- Estilos textos -- ] */
 
 .tex-h1 {
@@ -170,14 +180,60 @@ html {
   padding: 20px 20px 0px 20px ;
 }
 
+.cont-strong {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 1.5;
+  color: #7D4CFF;
+  padding: 20px 20px 0px 20px ;
+  text-align: justify;
+  text-transform: uppercase;
+}
 .cont-home {
   font-family: "Montserrat";
   font-size: 18px;
   line-height: 1.5;
-  color: #ffffff;
+  color: #c5c5c5;
   padding: 20px 20px 20px 20px ;
   text-align: justify;
 }
+
+
+
+  /* [ -- Casos de Estudio -- ] */
+
+  /* Encabezado */
+
+.bnnr-ttl { width: 80%;}
+.bnnr-ttl h1 {font-family: "Montserrat"; font-size: 26px ; color:#888888; position: relative; margin-top: 10px;}
+.bnnr-ttl p {font-family: "Montserrat"; font-size: 14px ; color:#7D4CFF; position: relative;margin-top: 10px}
+.bnnr-ttl p {text-transform: uppercase;}
+
+.bnnr-opt {display:flex; width: 80%; margin-top: 40px; justify-content: space-between; flex-wrap: wrap;}
+
+.bnnr-opts strong {font-family: "Montserrat"; font-size: 14px; color: #7D4CFF; position: relative; margin-top: 10px}
+
+.ltt-cap {font-family: "Montserrat"; font-size: 14px; color: #888888; position: relative; margin-top: 10px}
+.ltt-cap {text-transform: uppercase; }
+
+
+  /* Contenido */
+
+  .title-intro {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 600 ;
+    color: #ffffff;
+    padding: 50px 0px 20px 20px;
+  }
+  
+  .subnumber-intro {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 600 ;
+    color: #7D4CFF;
+    padding: 20px 0px 0px 20px ;
+    }
 
   /* [ -- Glass Effect -- ] */
 
@@ -229,6 +285,14 @@ html {
   align-items: center;
 }
 
+.background-general {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display:flex;
+  align-items: center;
+}
+
 .card-welcome {
   width: 45rem;
   height: 50dvh auto;
@@ -263,6 +327,28 @@ html {
   width: 50rem;
   height: 50dvh auto;
   border: 2px solid #ffffff10;
+  border-radius: 25px;
+  position: relative;
+  margin: 20px auto;
+  padding: 20px 20px;
+}
+
+.card-container-gral {
+  width: 80rem;
+  height: 50dvh auto;
+  background-color: #0f1317;
+  border: 1px solid #575757;
+  border-radius: 25px;
+  position: relative;
+  margin: 20px auto;
+  padding: 20px 20px;
+}
+
+.card-container-int {
+  width: auto;
+  height: 50dvh auto;
+  background-color: #0f1317;
+  /* [ -- border: 2px solid #575757; -- ] */
   border-radius: 25px;
   position: relative;
   margin: 20px auto;
